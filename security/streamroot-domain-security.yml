@@ -1,0 +1,12 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: streamroot.io
+  https: false
+domains:
+- domain: streamroot.io
+  dnssec: true
+  caa: []
+  spf: false
+  dmarc: false

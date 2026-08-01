@@ -1,0 +1,47 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.npmjs.com/~streamroot + https://github.com/streamroot
+note: >-
+  Streamroot's developer surface was a client-side (browser/player) delivery SDK
+  (Streamroot DNA / Mesh Delivery), distributed as video-player plugins rather than
+  a server-side REST API. The standalone company was acquired by CenturyLink (now
+  Lumen Technologies) in 2019; the streamroot.io site/docs are offline and the npm
+  packages below are published (official) but deprecated / no longer supported.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@streamroot/videojs-hlsjs-plugin"
+    url: https://www.npmjs.com/package/@streamroot/videojs-hlsjs-plugin
+    install: npm install @streamroot/videojs-hlsjs-plugin
+    repository: https://github.com/streamroot/videojs-hlsjs-plugin
+    latest_version: 1.0.16
+    published: '2022-01-27'
+    official: true
+    deprecated: true
+    description: HLS playback for video.js 5.0+ via hls.js (Streamroot player integration).
+  - language: javascript
+    registry: npm
+    name: videojs-hlsjs-plugin
+    url: https://www.npmjs.com/package/videojs-hlsjs-plugin
+    install: npm install videojs-hlsjs-plugin
+    repository: https://github.com/streamroot/videojs-hlsjs-plugin
+    latest_version: 1.0.5
+    published: '2018-10-31'
+    official: true
+    deprecated: true
+    superseded_by: "@streamroot/videojs-hlsjs-plugin"
+    description: Original (unscoped) hls.js source handler for video.js 5; deprecated in favor of the scoped package.
+source_repositories:
+  - name: clappr-p2phls-plugin
+    url: https://github.com/streamroot/clappr-p2phls-plugin
+    language: javascript
+    description: Peer-to-peer HLS plugin for the Clappr player (BemTV lineage).
+  - name: avplayer-dna-plugin
+    url: https://github.com/streamroot/avplayer-dna-plugin
+    language: swift
+    description: AVPlayer plugin for the Streamroot DNA SDK.
+  - name: dna-integration-samples
+    url: https://github.com/streamroot/dna-integration-samples
+    language: javascript
+    archived: true
+    description: Streamroot DNA integration samples (archived).
